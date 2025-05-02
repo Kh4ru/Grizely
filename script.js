@@ -1,3 +1,7 @@
 let page = new Page("YO")
 let style = new Styledoc("red")
-let titre = new Titre("test",style)
+let titre = new Titre(1,"test",style)
+new Paragraph("salut")
+new Link("incroyable lien","https://google.com")
+new Button("salut")
+new Input("comment ça va ?")
